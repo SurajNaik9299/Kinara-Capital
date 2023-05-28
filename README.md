@@ -3,7 +3,9 @@
 Instructions to Install and Run the Project
 
 #Step 1  - Traverse to 'kinaraCapital-backend' folder.
+
 #Step 2 - Run npm install to install the dependencies
+
 #Step 3 - Open the terminal and type 'npm run dev' to run the application
 
 Instruction to test the API's
