@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "166ec3ae-24cb-4052-b7ef-dd42c50ad518",
+		"name": "StudentApi-Docs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25227863"
+	},
+	"item": [
+		{
+			"name": "Add new Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Chia\",\r\n    \"totalMarks\":76\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/students",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get students based on page size and limit",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\":\"646babf773870762d95a1fe6\",\r\n    \"title\":\"Shinkansen\",\r\n    \"text\":\"NagurSan..\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/students?sort=totalMarks,desc&page=10&limit=2",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "totalMarks,desc"
+						},
+						{
+							"key": "page",
+							"value": "10"
+						},
+						{
+							"key": "limit",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get students sorted based query parameter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/students?sort=totalMarks,desc",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"students"
+					],
+					"query": [
+						{
+							"key": "sort",
+							"value": "totalMarks,desc"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
