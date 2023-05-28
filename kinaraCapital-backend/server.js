@@ -14,7 +14,6 @@ connectDB();
 app.use(cors());
 app.use(express.json());
 
-// app.use(cookieParser());
 
 //TO find static files such as css files
 app.use("/", express.static(path.join(__dirname, "public")));
@@ -38,10 +37,3 @@ mongoose.connection.once("open", () => {
   app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 });
 
-// mongoose.connection.on("error", (err) => {
-//   console.log(err);
-//   logEvents(
-//     `${err.no}:${err.code}\t${err.syscall}\t${err.hostname}`,
-//     "mongoErrorLog.log"
-//   );
-// });
