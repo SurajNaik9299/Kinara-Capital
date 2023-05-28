@@ -1,0 +1,73 @@
+[
+    {   
+            
+    "id":"1",
+        "name": "The Shawshank Redemption",
+        "totalMarks": "92"
+    },
+    {    
+        "id":"2",
+        "name": "The Godfather",
+        "totalMarks": "92"
+    },
+    {    
+        "id":"3",
+        "name": "The Dark Knight",
+        "totalMarks": "90"
+    },
+    {    
+        "id":"4",
+        "name": "Pulp Fiction",
+        "totalMarks": "89"
+    },
+    {    
+        "id":"5",
+        "name": "Forrest Gump",
+        "totalMarks": "88"
+    },
+    {    
+        "id":"6",
+        "name": "Fight Club",
+        "totalMarks": "88"
+    },
+    {    
+        "id":"7",
+        "name": "The Matrix",
+        "totalMarks": "87"
+    },
+    {    
+        "id":"8",
+        "name": "Goodfellas",
+        "totalMarks": "87"
+    },
+    {    
+        "id":"9",
+        "name": "Interstellar",
+        "totalMarks": "86"
+    },
+    {    
+        "id":"10",
+        "name": "Whiplash",
+        "totalMarks": "85"
+    },
+    {    
+        "id":"11",
+        "name": "Parasite",
+        "totalMarks": "85"
+    },
+    {    
+        "id":"12",
+        "name": "Spider-Man: Into the Spider-Verse",
+        "totalMarks": "83"
+    },
+    {    
+        "id":"13",
+        "name": "Coco",
+        "totalMarks": "83"
+    },
+    {    
+        "id":"14",
+        "name": "Your Name",
+        "totalMarks": "83"
+    }
+]

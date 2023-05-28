@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c65"
+  },
+  "name": "Arjun",
+  "totalMarks": 92,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c66"
+  },
+  "name": "Ashish",
+  "totalMarks": 92,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c67"
+  },
+  "name": "Vijay",
+  "totalMarks": 90,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c68"
+  },
+  "name": "Ajay",
+  "totalMarks": 89,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c69"
+  },
+  "name": "Vikas",
+  "totalMarks": 88,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c6a"
+  },
+  "name": "Suraj",
+  "totalMarks": 88,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c6b"
+  },
+  "name": "Deepika",
+  "totalMarks": 87,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c6c"
+  },
+  "name": "Sagar",
+  "totalMarks": 87,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c6d"
+  },
+  "name": "Iman",
+  "totalMarks": 88,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c6e"
+  },
+  "name": "Champloo",
+  "totalMarks": 87,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c6f"
+  },
+  "name": "Victor",
+  "totalMarks": 85,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c70"
+  },
+  "name": "Peter",
+  "totalMarks": 86,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c71"
+  },
+  "name": "Coco",
+  "totalMarks": 84,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64722cfa4266440860b72c72"
+  },
+  "name": "Makoto",
+  "totalMarks": 83,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6473164352063eb9c38cc5bd"
+  },
+  "name": "Shivam",
+  "totalMarks": 76,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64731704dcd898a1a0b7b965"
+  },
+  "name": "Xioa",
+  "totalMarks": 76,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64731720e122cae46bb51c1e"
+  },
+  "name": "Chia",
+  "totalMarks": 76,
+  "__v": 0
+}]
